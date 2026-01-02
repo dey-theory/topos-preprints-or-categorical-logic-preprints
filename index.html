@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topos Preprints</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #666;
+            font-style: italic;
+        }
+
+        nav {
+            margin: 30px 0;
+            padding: 15px 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            color: #2c3e50;
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin: 30px 0 20px 0;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            color: #34495e;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .paper-entry {
+            margin: 25px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+        }
+
+        .paper-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .paper-author {
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .paper-date {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .paper-abstract {
+            margin: 10px 0;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        .paper-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .paper-link:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: #ecf0f1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .contact-email {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-email:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        ul {
+            margin: 15px 0 15px 40px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .no-papers {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Topos Preprints</h1>
+            <p class="subtitle">An open repository for categorical logic and topos theory</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="submit.html">Submit</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <main id="main-content">
+            <!-- INDEX.HTML CONTENT -->
+            <section id="home">
+                <h2>Recent Preprints</h2>
+                
+                <div class="no-papers">
+                    No preprints available yet. Be the first to submit!
+                </div>
+
+                <!-- TEMPLATE FOR ADDING PAPERS LATER:
+                <div class="paper-entry">
+                    <div class="paper-title">Paper Title Here</div>
+                    <div class="paper-author">Author Name</div>
+                    <div class="paper-date">January 2, 2026</div>
+                    <div class="paper-abstract">
+                        <strong>Abstract:</strong> Paper abstract goes here...
+                    </div>
+                    <a href="papers/filename.pdf" class="paper-link">Download PDF</a>
+                </div>
+                -->
+            </section>
+
+            <!-- SUBMIT.HTML CONTENT -->
+            <section id="submit" style="display:none;">
+                <h2>Submit a Preprint</h2>
+                
+                <div class="info-box">
+                    <p><strong>Topos Preprints</strong> accepts original research in categorical logic, topos theory, type theory, and related areas of mathematics.</p>
+                </div>
+
+                <h3>Submission Guidelines</h3>
+                <p>We accept papers in the following areas:</p>
+                <ul>
+                    <li>Topos theory and categorical logic</li>
+                    <li>Higher category theory and higher topos theory</li>
+                    <li>Type theory and homotopy type theory</li>
+                    <li>Categorical semantics and proof theory</li>
+                    <li>Sheaf theory and categorical algebraic geometry</li>
+                    <li>Effective topos theory and realizability</li>
+                    <li>Applications of categorical methods to logic and foundations</li>
+                </ul>
+
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Papers must present original research</li>
+                    <li>Mathematical content must be rigorous</li>
+                    <li>PDF format preferred</li>
+                    <li>Include title, author(s), date, and abstract</li>
+                    <li>Papers are reviewed for quality and relevance (typically within 48-72 hours)</li>
+                </ul>
+
+                <h3>How to Submit</h3>
+                <p>Send your preprint to: <a href="mailto:deyprabahan@gmail.com" class="contact-email">deyprabahan@gmail.com</a></p>
+                
+                <p>Please include in your email:</p>
+                <ul>
+                    <li>Paper PDF as attachment</li>
+                    <li>Title of the paper</li>
+                    <li>Author name(s) and affiliation(s) (if any)</li>
+                    <li>Brief abstract (can be copied from paper)</li>
+                    <li>Any relevant keywords or subject classifications</li>
+                </ul>
+
+                <div class="info-box">
+                    <p><strong>Note:</strong> Topos Preprints is an open archive. By submitting, you agree to make your work publicly available. This does not prevent subsequent journal publication.</p>
+                </div>
+            </section>
+
+            <!-- ABOUT.HTML CONTENT -->
+            <section id="about" style="display:none;">
+                <h2>About Topos Preprints</h2>
+                
+                <h3>Mission</h3>
+                <p>Topos Preprints is an open preprint repository dedicated to categorical logic, topos theory, and related fields. We provide a platform for researchers to share their work freely, without institutional barriers.</p>
+
+                <h3>Philosophy</h3>
+                <p>Mathematics thrives on open exchange of ideas. Traditional preprint servers often impose institutional requirements that exclude independent researchers and mathematicians from underrepresented regions. Topos Preprints aims to democratize access to mathematical publication while maintaining rigorous standards.</p>
+
+                <h3>Scope</h3>
+                <p>We accept papers in:</p>
+                <ul>
+                    <li>Topos theory and categorical logic</li>
+                    <li>Higher category theory</li>
+                    <li>Type theory and proof assistants</li>
+                    <li>Categorical semantics</li>
+                    <li>Sheaf theory and descent</li>
+                    <li>Effective mathematics and realizability</li>
+                    <li>Categorical foundations of mathematics</li>
+                </ul>
+
+                <h3>Quality Control</h3>
+                <p>All submissions are reviewed for mathematical rigor and relevance. We filter out:</p>
+                <ul>
+                    <li>Papers with fundamental mathematical errors</li>
+                    <li>Work that does not engage with the categorical literature</li>
+                    <li>Submissions that misuse technical terminology</li>
+                    <li>Non-mathematical content</li>
+                </ul>
+
+                <p>However, we welcome exploratory work, negative results, and papers that challenge conventional perspectives, provided they maintain mathematical standards.</p>
+
+                <h3>Contact</h3>
+                <p>For questions, suggestions, or submission inquiries: <a href="mailto:deyprabahan@gmail.com" class="contact-email">deyprabahan@gmail.com</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Topos Preprints &copy; 2026 | An open archive for categorical logic</p>
+            <p>All papers are freely available under their respective licenses</p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple navigation without multiple pages
+        const links = document.querySelectorAll('nav a');
+        const sections = {
+            'index.html': document.getElementById('home'),
+            'submit.html': document.getElementById('submit'),
+            'about.html': document.getElementById('about')
+        };
+
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const page = link.getAttribute('href');
+                
+                // Hide all sections
+                Object.values(sections).forEach(section => {
+                    section.style.display = 'none';
+                });
+                
+                // Show selected section
+                if (sections[page]) {
+                    sections[page].style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+                      </html>
